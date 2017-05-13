@@ -58,7 +58,7 @@ function runServer() {
     server.stdout.on('data', onStdOut);
     server.stderr.on('data', x => process.stderr.write(x));
 
-    return server;
+    return [];
   });
 }
 
